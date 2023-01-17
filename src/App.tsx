@@ -6,7 +6,10 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="App"></div>
+      <div className="App">
+        <h1>Aca toca</h1>
+        <button className="red">Aca fresh</button>
+      </div>
     </QueryClientProvider>
   );
 }
